@@ -21,7 +21,7 @@ const scene = new THREE.Scene();
 let tl = gsap.timeline();
 
 // Object - Playing Card
-gltfLoader.load("Playing_Card_Basic.gltf", (gltf) => {
+gltfLoader.load("./models/Playing_Card/Playing_Card_Basic.gltf", (gltf) => {
   gltf.scene.scale.set(1, 1, 1);
   gltf.scene.rotation.set(0, 0, 0);
   scene.add(gltf.scene);
