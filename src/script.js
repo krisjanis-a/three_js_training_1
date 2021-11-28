@@ -36,6 +36,13 @@ gltfLoader.load("./models/Playing_Card/Playing_Card_Basic.gltf", (gltf) => {
   tl.to(gltf.scene.rotation, { z: twoPiRad, duration: 3 }, "-=3");
 });
 
+// Object - Playing Card
+gltfLoader.load("./models/Playing_Card/Playing_Card_Basic.gltf", (gltf) => {
+  gltf.scene.scale.set(1, 1, 1);
+  gltf.scene.rotation.set(0 * Math.PI, 0, 0);
+  scene.add(gltf.scene);
+});
+
 // Objects
 // const geometry = new THREE.TorusGeometry(1, 0.15, 100, 100);
 
