@@ -1,4 +1,4 @@
-#three_js_training_1
+# three_js_training_1
 
 # Three.js Starter
 
